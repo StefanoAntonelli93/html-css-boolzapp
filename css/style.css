@@ -14,14 +14,19 @@ body {
 }
 .container {
     background-color: lightcoral;
-    width: 80%;
-    height: 90%;
-    margin: auto;
-}
-.row {
+    width: 100%;
     display: flex;
-    flex-wrap: wrap;
+ 
 }
+.sidebar { 
+    background-color: gold;
+    display: none;
+}
+.content {
+    background-color: silver;
+    flex-grow: 1;
+}
+
 
 @media screen and (min-width: 576px){
     body {
@@ -32,19 +37,27 @@ body {
     body {
         background-color: lightseagreen;
     }
-}
-@media screen and (min-width: 992px) {
-    body {
-        background-color: blue;
+    .sidebar {
+        display: block;
+        flex-shrink: 0;
     }
 }
 @media screen and (min-width: 992px) {
     body {
-        background-color: blue;
+        background-image: linear-gradient(to top, #dadbd3 80%, #009688 80%);
         
-    }
+    }   
     .container {
-        max-width: 1200px;
+        background-color: orange;
+        width: 80%;
+        height: 90%;
         margin: auto;
     }
+    .sidebar{
+        width: 350px;
+    }
+
+
 }
+
+

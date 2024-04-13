@@ -35,6 +35,17 @@
         height: 50px;
         flex-shrink: 0;
     }
+    .dati-avatar {
+        display: none;
+    }
+    .sidebar-icon {
+        display: none;
+    }
+    .content .dati-avatar{
+        display: block;
+    }
+
+
 }
 
 
@@ -62,6 +73,12 @@
     }
     .search {
         background-color: darkolivegreen;
+        display: block;
+    }
+    .content-icon, .sidebar-icon {
+        display: flex;
+    }
+    .content .dati-avatar{
         display: block;
     }
 

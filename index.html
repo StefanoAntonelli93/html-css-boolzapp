@@ -3,13 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Boolzapp Layout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <div class="container">
         <div class="sidebar">
-            <header>header</header>
+            <header>
+                <header>
+                    <div class="row">
+                        <div class="avatar d-flex">
+                            <img class="img-avatar" src="img/avatar_1.jpg" alt="avatar1">
+                            <div class="dati-avatar">
+                                <h4 id="name-avatar" class="inline-block">Michele</h4>
+                                <span class="block">Ultimo accesso oggi alle 23.45</span>
+                            </div>
+                        </div>
+          
+                        <ul class="sidebar-icon">
+                            <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                            <li><i class="fa-solid fa-paperclip"></i></li>
+                            <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                        </ul>
+                    </div>
+                </header>
+            </header>
             <div class="notifiche">notifiche</div>
             <div class="search">search</div>
             <ul class="chats">
@@ -65,100 +88,125 @@
             </ul>
         </div>
         <div class="content">
-            <header>header</header>
+            <header>
+                <div class="row">
+                    <div class="avatar d-flex">
+                        <img class="img-avatar" src="img/avatar_1.jpg" alt="avatar1">
+                        <div class="dati-avatar">
+                            <h4 id="name-avatar" class="inline-block">Michele</h4>
+                            <span class="block">Ultimo accesso oggi alle 23.45</span>
+                        </div>
+                    </div>
+      
+                    <ul class="content-icon">
+                        <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                        <li><i class="fa-solid fa-paperclip"></i></li>
+                        <li><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                    </ul>
+                </div>
+            </header>
+  
             <ul class="conversation">
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
-                <li>messaggio</li>
+                <li class="my-message">
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</p>
+                    <div class="hour">12.35</div>
+                </li>
+                <li id="your-message">
+                    <i class="fa-solid fa-chevron-down"></i>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</p>
+                    <div class="hour">12.35</div>  
+                </li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quaerat nostrum non in quibusdam voluptates, expedita dicta minima cupiditate eligendi sapiente blanditiis? Est nam debitis fugit eius. Fugit, itaque deleniti?</li>
             </ul>
             <footer class="message">message</footer>   
         </div>

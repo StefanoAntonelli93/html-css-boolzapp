@@ -1,0 +1,36 @@
+/* common */
+body {
+    background-color: lightblue;
+    height: 100vh;
+    display: flex;
+}
+.container {
+    background-color: lightcoral;
+    width: 100%;
+    display: flex;
+ 
+}
+.sidebar { 
+    background-color: gold;
+    display: none;
+}
+.content {
+    background-color: silver;
+    flex-grow: 1;
+}
+header {
+    background-color: crimson;
+    border: 1px solid black;
+    height: 50px;
+    flex-shrink: 0;
+}
+.conversation {
+    height: calc(100% - 100px);
+    overflow-y: auto;
+}
+footer.message {
+    background-color: crimson;
+    border: 1px solid black;
+    height: 50px;
+    flex-shrink: 0;
+}

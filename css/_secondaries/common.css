@@ -37,6 +37,8 @@ footer.message {
 }
 
  /* stile */
+
+ /* header */
 .img-avatar {
     width: 50px;
     height: 50px;
@@ -63,8 +65,11 @@ h3 {
 .dati-avatar{
     margin-top: 5px;
 }
+/* //header */
+
+/* message */
 .conversation li{
-    background-color: rgb(170, 218, 126);
+    background-color: #d4f9bb;
     padding: 10px;
     margin: 15px 15px 15px 120px;
     border-radius: 10px;
@@ -81,4 +86,35 @@ h3 {
     border-radius: 10px;
     
 }
+.my-message {
+    position: relative;
+}
+#your-message {
+    position: relative;
+}
+.my-message .fa-chevron-down {
+    position: absolute;
+    right: 8px;
+    color: #bbbcbb;
+}
+#your-message .fa-chevron-down {
+    position: absolute;
+    right: 8px;
+    color: #bbbcbb;
+}
+.my-message .hour  {
+    text-align: end;
+    font-size: 10px;
+    color: #bbbcbb;
+}
+#your-message .hour  {
+    text-align: end;
+    font-size: 10px;
+    color: #bbbcbb;
+}
+.my-message p , #your-message p  {
+    padding: 5px 25px 0 0;
+}
+
+/* //message */
 

@@ -50,7 +50,7 @@ footer.message {
 .sidebar-icon , .content-icon {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 15px;
     padding: 15px;
 
 }
@@ -160,3 +160,28 @@ ul li img {
     object-fit: cover;
 }
 /* //chats */
+
+/* notifiche */
+.notifiche {
+    padding: 10px;
+}
+.notifiche-icon {
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 15px
+}
+.fa-bell-slash {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    color: #8fdafc;
+}
+.dati-avatar a {
+    color: gray;
+}
+/* //notifiche */

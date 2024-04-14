@@ -31,3 +31,6 @@ ul li {
 .align-center {
     align-items: center;
 }
+.vertical-align {
+    vertical-align: middle;
+}

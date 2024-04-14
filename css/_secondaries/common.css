@@ -43,8 +43,10 @@ footer.message {
     border-radius: 50%;
     margin-left: 10px;
     margin-right: 20px;
-  
 }
+  
+  
+
 .sidebar-icon , .content-icon {
     display: flex;
     flex-wrap: wrap;
@@ -141,3 +143,12 @@ footer #message {
  }
 /* //footer */
 
+/* chats */
+ul li img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+}
+/* //chats */

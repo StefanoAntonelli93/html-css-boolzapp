@@ -28,3 +28,6 @@ ul li {
 .justify-right {
     justify-content: right;
 }
+.align-center {
+    align-items: center;
+}

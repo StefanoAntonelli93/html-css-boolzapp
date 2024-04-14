@@ -56,6 +56,9 @@
      
       
     }
+    .sidebar .dati-avatar-sidebar {
+        display: none;
+    }
 
 
 }
@@ -92,6 +95,12 @@
     }
     .content .dati-avatar{
         display: block;
+    }
+    .sidebar .dati-avatar{
+        display: block;
+    }
+    .sidebar .dati-avatar-sidebar {
+        display: none;
     }
 
 

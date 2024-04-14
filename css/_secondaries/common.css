@@ -15,24 +15,22 @@ body {
     display: none;
 }
 .content {
-    background-color: silver;
+    background-color: #eaeaea;
     flex-grow: 1;
 }
 header {
-    background-color: crimson;
-    border: 1px solid black;
-    height: 50px;
+    background-color: #eaeaea ;
+    padding: 5px;
     flex-shrink: 0;
    
 }
 .conversation {
-    height: calc(100% - 100px);
+    height: calc(100% - 115px);
     overflow-y: auto;
 }
 footer.message {
-    background-color: crimson;
-    border: 1px solid black;
-    height: 50px;
+    background-color:  #eaeaea ;
+    
     flex-shrink: 0;
 }
 
@@ -43,9 +41,9 @@ footer.message {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    vertical-align: middle;
+    margin-left: 10px;
     margin-right: 20px;
-    padding: 5px;
+  
 }
 .sidebar-icon , .content-icon {
     display: flex;
@@ -53,6 +51,9 @@ footer.message {
     gap: 10px;
     padding: 15px;
 
+}
+.content-icon {
+    display: none;
 }
 h3 {
     vertical-align: middle;
@@ -65,9 +66,14 @@ h3 {
 .dati-avatar{
     margin-top: 5px;
 }
+.last-access {
+    margin-top: 5px;
+    color:gray ;
+    font-size: 15px;
+}
 /* //header */
 
-/* message */
+/* conversation */
 .conversation li{
     background-color: #d4f9bb;
     padding: 10px;
@@ -116,5 +122,22 @@ h3 {
     padding: 5px 25px 0 0;
 }
 
-/* //message */
+.conversation {
+    background-image: url(/img/mine.jpg);
+}
+
+
+/* //conversation */
+
+/* footer */
+footer {
+    padding: 10px 20px ;
+}
+footer #message {
+    width: 100%;
+    padding: 10px ;
+    border-radius: 5px;
+    border: none;
+ }
+/* //footer */
 

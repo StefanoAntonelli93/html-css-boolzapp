@@ -44,6 +44,9 @@
     .content .dati-avatar{
         display: block;
     }
+    .content-icon {
+        display: flex;
+    }
 
 
 }

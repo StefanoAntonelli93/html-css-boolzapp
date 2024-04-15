@@ -34,3 +34,6 @@ ul li {
 .vertical-align {
     vertical-align: middle;
 }
+* i {
+    font-size: 20px;
+}

@@ -125,8 +125,7 @@ h3 {
 }
 
 .conversation {
-    background-image: url("/img/mine.jpg");
-    
+    background-image: url("../../img/mine.jpg");    
 }
 
 

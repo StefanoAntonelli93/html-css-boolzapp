@@ -34,6 +34,6 @@ ul li {
 .vertical-align {
     vertical-align: middle;
 }
-* i {
+* header i , footer i {
     font-size: 20px;
 }
